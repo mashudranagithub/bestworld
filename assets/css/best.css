@@ -1957,6 +1957,35 @@ Legal documents page end Here
 
 
 
+/******************************
+    News and Events Start
+******************************/
+
+section#News-Events-page {
+    padding: 50px 0;
+}
+
+section#News-Events-page .single-news-events {
+    margin-bottom: 40px;
+}
+
+section#News-Events-page .single-news-events .news-events-image {
+    height: auto;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+section#News-Events-page .single-news-events a img {
+    height: auto;
+}
+
+/******************************
+    News and Events End
+******************************/
+
+
+
+
 
 
 
