@@ -168,6 +168,22 @@ jQuery(document).ready(function($){
 
 
 
+//faq toggle
+
+    //Faq Toggle Heading with answer
+    $('.faq-toggle .answer').hide();
+    $('.faq-toggle h2:first').addClass('active').next().slideDown('fast');
+    $('.faq-toggle h2').click(function() {
+        if($(this).next().is(':hidden')) {
+            $('.faq-toggle h2').removeClass('active').next().slideUp('fast');
+            $(this).toggleClass('active').next().slideDown('fast');
+        }
+    });
+
+
+
+
+
 });
 
 

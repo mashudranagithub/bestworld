@@ -1885,6 +1885,84 @@ Legal documents page end Here
 
 
 
+/*******************************
+        FAQ Page Start Here
+*******************************/
+
+#Faq {
+    padding: 0 0 50px;
+}
+
+.faq-toggle h2{
+    background: none repeat scroll 0 0 #f4f4f4;
+    border: medium none;
+    border-radius:3px;
+    color: #454545;
+    font-family: roboto;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 10px 0px 10px 50px;
+    position: relative;
+    transition: all 1s;
+}
+
+.faq-toggle h2 i{
+    font-size: 10px;
+    color:#454545;
+    position: absolute;
+    left: 0px;
+    background: #D8D8D8;
+    line-height: 40px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0 0 0 15px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+
+.faq-toggle h2.active{
+    color:#009e54;
+}
+
+
+.faq-toggle h2.active > i{
+    transform: rotate(90deg);
+    color: #fff;
+    background: #009e54;
+    border-radius: 0px 0px 4px 4px;
+    transition: all 1s;
+}
+
+.answer p{
+    color: #777;
+    font-family: roboto;
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 0 0 30px;
+    width: 100%;
+    letter-spacing: 0.30px;
+}
+
+
+/*******************************
+        FAQ Page End Here
+*******************************/
+
+
+
+
+
+
+
+
+
+
 
 
 
