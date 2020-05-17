@@ -2011,6 +2011,52 @@ section#Single-News-Events .news-events-image a img {
 
 
 
+/******************************
+    Contact Page Start Here
+******************************/
+
+section#Contact-page {
+    padding-bottom: 50px;
+}
+
+.get-in-touch {
+    padding: 30px;
+}
+
+.get-in-touch .contact-data {
+    margin-top: 30px;
+}
+
+.get-in-touch .contact-data p {
+    margin-bottom: 15px;
+}
+
+.get-in-touch .contact-data p i.fa {
+    font-size: 20px;
+    width: 35px;
+    color: #009e54;
+}
+
+.contact-form {
+    padding: 30px;
+    background: #f6f6f6;
+    box-shadow: 0 0 10px 0px #cccccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form h3 {
+    margin-bottom: 25px;
+}
+
+/******************************
+    Contact Page End Here
+******************************/
+
+
+
+
 
 
 
