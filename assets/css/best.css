@@ -1986,6 +1986,30 @@ section#News-Events-page .single-news-events a img {
 
 
 
+/******************************
+    Single News/events start
+******************************/
+
+section#Single-News-Events {
+    padding-bottom: 50px;
+}
+
+section#Single-News-Events .news-events-image {
+    height: auto;
+    max-height: 400px;
+}
+
+section#Single-News-Events .news-events-image a img {
+    height: auto;
+    transform: none;
+}
+
+/******************************
+    Single News/events End
+******************************/
+
+
+
 
 
 
