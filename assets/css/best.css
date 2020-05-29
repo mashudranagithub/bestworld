@@ -1113,7 +1113,11 @@ ul.social-menu li a i.fab.fa-linkedin-in {
     margin-bottom: 5px;
 }
 
-p.copyright-text a {
+p.copyright-text a:first-child {
+    color: #212529;
+}
+
+p.copyright-text a:last-child {
     color: #009e54;
     font-weight: 700;
 }
@@ -2060,6 +2064,145 @@ section#Contact-page {
 
 
 
+/******************************
+    Directors Page Start Here
+******************************/
+
+section#Directors h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.single-director {
+    margin-bottom: 50px;
+}
+
+.single-director-image {
+    max-height: 270px;
+    overflow: hidden;
+}
+
+.single-director-bio {
+    margin-bottom: 30px;
+}
+
+.single-director-bio p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.single-director-bio-footer p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+/******************************
+    Directors Page End Here
+******************************/
+
+
+
+
+
+/******************************
+    My Account page Here
+******************************/
+
+section#My-account {
+    padding: 50px 0;
+}
+
+section#My-account h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5a5a5a;
+}
+
+.profile-image {
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.account-left-bar h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+ul#myAccount {
+    margin: 0;
+    padding: 0;
+    display: block !important;
+    background: #dadada;
+}
+
+ul#myAccount li {
+    display: block;
+}
+
+ul#myAccount li a {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #333;
+}
+
+ul#myAccount li a i {
+    width: 50px;
+    text-align: center;
+}
+
+ul#myAccount li a.active {
+    background: #009e54;
+    color:#fff;
+}
+
+.account-heading {
+    height: 225px;
+}
+
+.account-heading h3 {
+    text-transform: uppercase;
+}
+
+.my-account-content h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-account-details {
+    background: #dadada;
+    padding: 30px;
+    border-top: 3px solid #009e54;
+}
+
+img.wishlist-product-image {
+    max-height: 70px;
+}
+
+.my-account-details .product-unit-price {
+
+}
+
+.my-account-details .product-unit-price {
+    line-height: 70px;
+}
+
+.my-account-details .product-remove {
+    line-height: 70px;
+}
+
+/******************************
+    My Account page End Here
+******************************/
 
 
 

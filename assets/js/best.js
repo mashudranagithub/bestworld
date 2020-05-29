@@ -30,8 +30,6 @@ jQuery(document).ready(function($){
 
 
 
-
-
     // News & Events Slider Start Here
     $('.news-events-slider').owlCarousel({
 	    loop:true,
@@ -150,7 +148,7 @@ jQuery(document).ready(function($){
 		let value = $(this).siblings('.quantity-number').val();
 		value = isNaN(value) ? 0 : value;
 		// Product Quantity Highest Value Control from the below code 
-		if(value<100){
+		if(value<999){
 			value ++;
 	    	$(this).siblings('.quantity-number').val(value);
 		}
@@ -168,7 +166,7 @@ jQuery(document).ready(function($){
 
 
 
-//faq toggle
+	//faq toggle
 
     //Faq Toggle Heading with answer
     $('.faq-toggle .answer').hide();
@@ -180,6 +178,13 @@ jQuery(document).ready(function($){
         }
     });
 
+
+
+
+
+
+    // My account Page height
+    $('.my-account-details').css('min-height', $('#myAccount').outerHeight());
 
 
 
