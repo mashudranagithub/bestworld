@@ -2467,6 +2467,10 @@ section#Card h2 {
 	.footer-top form {
 	    margin-top: 25px;
 	}
+    
+    .footer-top form input[type="email"] {
+        width:65%;
+    }
 
 	.footer-top form button[type="submit"] {
 	    width: 31%;
