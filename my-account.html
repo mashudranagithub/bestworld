@@ -269,12 +269,6 @@
 									</a>
 								</li>
 								<li>
-									<a class="nav-link" id="account-details-tab" data-toggle="tab" href="#account-details">
-										<i class="fa fa-user"></i>
-										Account Details
-									</a>
-								</li>
-								<li>
 									<a class="nav-link" id="delete-account-tab" data-toggle="tab" href="#delete-account">
 										<i class="fa fa-trash"></i>
 										Delete Account
@@ -291,16 +285,167 @@
 					</div>
 				</div>
 				<div class="col-md-8">
-						<div class="tab-content" id="myAccountContent">
-							<div class="tab-pane fade show active" id="dash" role="tabpanel" aria-labelledby="dash-tab">
-								<div class="my-account-content">
-									<div class="account-heading d-flex align-items-center justify-content-center">
-										<h3>Dashboard</h3>
+					<div class="tab-content" id="myAccountContent">
+						<div class="tab-pane fade show active" id="dash" role="tabpanel" aria-labelledby="dash-tab">
+							<div class="my-account-content">
+								<div class="account-heading d-flex align-items-center justify-content-center">
+									<h3>Dashboard</h3>
+								</div>
+								<div class="my-account-details">
+									<div class="row mb-2">
+										<div class="col-md-3">
+											<p><b>Name</b></p>
+										</div>
+										<div class="col-md-1">
+											<p><b>:</b></p>
+										</div>
+										<div class="col-md-8">
+											<p>Md. Mashud Rana</p>
+										</div>
 									</div>
-									<div class="my-account-details">
+									<div class="row mb-2">
+										<div class="col-md-3">
+											<p><b>Email</b></p>
+										</div>
+										<div class="col-md-1">
+											<p><b>:</b></p>
+										</div>
+										<div class="col-md-8">
+											<p>mashudranabitm@gmail.com</p>
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-md-3">
+											<p><b>Phone</b></p>
+										</div>
+										<div class="col-md-1">
+											<p><b>:</b></p>
+										</div>
+										<div class="col-md-8">
+											<p>+8801918631391</p>
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-md-3">
+											<p><b>Address</b></p>
+										</div>
+										<div class="col-md-1">
+											<p><b>:</b></p>
+										</div>
+										<div class="col-md-8">
+											<p>39/1 Bangabandhu Avenue, GPO, Dhaka - 1000</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab">
+							<div class="account-heading d-flex align-items-center justify-content-center">
+								<h3>Orders</h3>
+							</div>
+							<div class="my-account-details">
+								<table class="table">
+									<thead class="thead-light">
+										<tr>
+											<th>Order</th>
+											<th>Date</th>
+											<th>Status</th>
+											<th>Total</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>#01</td>
+											<td>25 May, 2020</td>
+											<td>Delivered</td>
+											<td>৳ 894</td>
+											<td><a href="javascript:void(0);" class="view">View</a></td>
+										</tr>
+										<tr>
+											<td>#02</td>
+											<td>29 May, 2020</td>
+											<td>Delivered</td>
+											<td>৳ 1024</td>
+											<td><a href="javascript:void(0);" class="view">View</a></td>
+										</tr>
+										<tr>
+											<td>#03</td>
+											<td>30 May, 2020</td>
+											<td>Processing</td>
+											<td>৳ 297</td>
+											<td><a href="javascript:void(0);" class="view">View</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="my-wishlist" role="tabpanel" aria-labelledby="my-wishlist-tab">
+							<div class="account-heading d-flex align-items-center justify-content-center">
+								<h3>Wishlist</h3>
+							</div>
+							<div class="my-account-details">
+								<table class="table">
+									<thead class="thead-light">
+										<tr>
+											<th>Product</th>
+											<th>Unit Price</th>
+											<th>Remove</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="d-flex align-items-center justify-content-start">
+												<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
+												<h4>Product Name</h4>
+											</td>
+											<td class="product-unit-price">৳ 149</td>
+											<td class="product-remove">
+												<a href="javascript:void(0);">
+													<i class="far fa-times-circle"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="d-flex align-items-center justify-content-start">
+												<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
+												<h4>Product Name</h4>
+											</td>
+											<td class="product-unit-price">৳ 149</td>
+											<td class="product-remove">
+												<a href="javascript:void(0);">
+													<i class="far fa-times-circle"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="d-flex align-items-center justify-content-start">
+												<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
+												<h4>Product Name</h4>
+											</td>
+											<td class="product-unit-price">৳ 149</td>
+											<td class="product-remove">
+												<a href="javascript:void(0);">
+													<i class="far fa-times-circle"></i>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
+							<div class="account-heading d-flex align-items-center justify-content-center">
+								<h3>Address</h3>
+							</div>
+							<div class="my-account-details">
+								<div class="row">
+									<div class="col-md-6">
+										<h4 class="mb-3">Billing Address</h4>
 										<div class="row mb-2">
 											<div class="col-md-3">
-												<p><b>Name:</b></p>
+												<p><b>Name</b></p>
 											</div>
 											<div class="col-md-1">
 												<p><b>:</b></p>
@@ -311,7 +456,7 @@
 										</div>
 										<div class="row mb-2">
 											<div class="col-md-3">
-												<p><b>Email:</b></p>
+												<p><b>Email</b></p>
 											</div>
 											<div class="col-md-1">
 												<p><b>:</b></p>
@@ -322,7 +467,7 @@
 										</div>
 										<div class="row mb-2">
 											<div class="col-md-3">
-												<p><b>Phone:</b></p>
+												<p><b>Phone</b></p>
 											</div>
 											<div class="col-md-1">
 												<p><b>:</b></p>
@@ -333,7 +478,18 @@
 										</div>
 										<div class="row mb-2">
 											<div class="col-md-3">
-												<p><b>Address:</b></p>
+												<p><b>Post</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>1200</p>
+											</div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Address</b></p>
 											</div>
 											<div class="col-md-1">
 												<p><b>:</b></p>
@@ -343,129 +499,78 @@
 											</div>
 										</div>
 									</div>
-
-								</div>
-							</div>
-							<div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab">
-								<div class="account-heading d-flex align-items-center justify-content-center">
-									<h3>Orders</h3>
-								</div>
-								<div class="my-account-details">
-									<table class="table">
-										<thead class="thead-light">
-											<tr>
-												<th>Order</th>
-												<th>Date</th>
-												<th>Status</th>
-												<th>Total</th>
-												<th></th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>#01</td>
-												<td>25 May, 2020</td>
-												<td>Delivered</td>
-												<td>৳ 894</td>
-												<td><a href="javascript:void(0);" class="view">View</a></td>
-											</tr>
-											<tr>
-												<td>#02</td>
-												<td>29 May, 2020</td>
-												<td>Delivered</td>
-												<td>৳ 1024</td>
-												<td><a href="javascript:void(0);" class="view">View</a></td>
-											</tr>
-											<tr>
-												<td>#03</td>
-												<td>30 May, 2020</td>
-												<td>Processing</td>
-												<td>৳ 297</td>
-												<td><a href="javascript:void(0);" class="view">View</a></td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-							<div class="tab-pane fade" id="my-wishlist" role="tabpanel" aria-labelledby="my-wishlist-tab">
-								<div class="account-heading d-flex align-items-center justify-content-center">
-									<h3>Wishlist</h3>
-								</div>
-								<div class="my-account-details">
-									<table class="table">
-										<thead class="thead-light">
-											<tr>
-												<th>Product</th>
-												<th>Unit Price</th>
-												<th>Remove</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="d-flex align-items-center justify-content-start">
-													<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
-													<h4>Product Name</h4>
-												</td>
-												<td class="product-unit-price">৳ 149</td>
-												<td class="product-remove">
-													<a href="javascript:void(0);">
-														<i class="far fa-times-circle"></i>
-													</a>
-												</td>
-											</tr>
-											<tr>
-												<td class="d-flex align-items-center justify-content-start">
-													<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
-													<h4>Product Name</h4>
-												</td>
-												<td class="product-unit-price">৳ 149</td>
-												<td class="product-remove">
-													<a href="javascript:void(0);">
-														<i class="far fa-times-circle"></i>
-													</a>
-												</td>
-											</tr>
-											<tr>
-												<td class="d-flex align-items-center justify-content-start">
-													<img class="wishlist-product-image pr-2" src="assets/images/products/agro/bestcald-green.jpg" alt="Cart product image">
-													<h4>Product Name</h4>
-												</td>
-												<td class="product-unit-price">৳ 149</td>
-												<td class="product-remove">
-													<a href="javascript:void(0);">
-														<i class="far fa-times-circle"></i>
-													</a>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-							<div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
-								<div class="account-heading d-flex align-items-center justify-content-center">
-									<h3>Address</h3>
-								</div>
-								<div class="my-account-details">
-
-								</div>
-							</div>
-							<div class="tab-pane fade" id="account-details" role="tabpanel" aria-labelledby="account-details-tab">
-								<div class="account-heading d-flex align-items-center justify-content-center">
-									<h3>Account Details</h3>
-								</div>
-								<div class="my-account-details">
-
-								</div>
-							</div>
-							<div class="tab-pane fade" id="delete-account" role="tabpanel" aria-labelledby="delete-account-tab">
-								<div class="account-heading d-flex align-items-center justify-content-center">
-									<h3>Confirm to delete account</h3>
-								</div>
-								<div class="my-account-details">
-
+									<div class="col-md-6">
+										<h4 class="mb-3">Shipping Address</h4>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Name</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>Md. Mashud Rana</p>
+											</div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Email</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>mashudranabitm@gmail.com</p>
+											</div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Phone</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>+8801918631391</p>
+											</div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Post</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>1200</p>
+											</div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-md-3">
+												<p><b>Address</b></p>
+											</div>
+											<div class="col-md-1">
+												<p><b>:</b></p>
+											</div>
+											<div class="col-md-8">
+												<p>39/1 Bangabandhu Avenue, GPO, Dhaka - 1000</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
+						<div class="tab-pane fade" id="delete-account" role="tabpanel" aria-labelledby="delete-account-tab">
+							<div class="account-heading d-flex align-items-center justify-content-center">
+								<h3>Confirm to delete account</h3>
+							</div>
+							<div class="my-account-details">
+								<p class="mb-3">Do you want to delete your account from this site?</p>
+								<a href="javascript:void(0);" class="btn btn-danger delete">Delete</a>
+								<a href="javascript:void(0);" class="btn btn-secondary no-delete">Cancel</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
